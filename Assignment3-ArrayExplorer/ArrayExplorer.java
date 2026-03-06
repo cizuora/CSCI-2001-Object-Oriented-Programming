@@ -1,5 +1,3 @@
-package Assignment3;
-
 /*================================
 Author     : Chidera Izuora
 Class Name : ArrayExplorer
