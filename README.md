@@ -1,4 +1,4 @@
-# CSCI 2001 – Object-Oriented Programming 🟦
+# CSCI 2001 – Object-Oriented Programming ☕
 
 Assignments from **CSCI 2001 - Object-Oriented Programming** course.  
 All projects are written in **Java** and focus on core OOP principles including encapsulation, classes, arrays, and data structures.
@@ -54,15 +54,15 @@ Key features:
 A utility class with static methods for analyzing integer arrays **without** using Java's built-in Collections framework.  
 **Concepts:** Static methods, arrays, iteration, exception handling.
 
-Methods include: `min`, `max`, `sum`, `average`, `count`, `contains`, `index`, `containsDuplicates`, `sumOfEvens`, `getItem`, `toString`
+Methods: `min`, `max`, `sum`, `average`, `count`, `contains`, `index`, `containsDuplicates`, `sumOfEvens`, `getItem`, `toString`
 
 ---
 
 ### Assignment 4 – ArrayList Explorer (Without Collections)
 Same utility methods as Assignment 3, but operating on `ArrayList<Integer>` instead of raw arrays — still without using `Collections` utility methods.  
-**Concepts:** ArrayLists, generics, method overloading, Javadoc.
+**Concepts:** ArrayLists, generics, Javadoc.
 
-Methods include: `min`, `max`, `sum`, `average`, `count`, `contains`, `index`, `containsDuplicates`, `sumOfEvens`, `getItem`, `toString`
+Methods: `min`, `max`, `sum`, `average`, `count`, `contains`, `index`, `containsDuplicates`, `sumOfEvens`, `getItem`, `toString`
 
 ---
 
@@ -73,32 +73,34 @@ Methods include: `min`, `max`, `sum`, `average`, `count`, `contains`, `index`, `
 - Any Java IDE (Eclipse, IntelliJ, VS Code) or command line
 
 ### Running from the command line
-```bash
-# Compile
-javac Assignment2/Car.java Assignment2/CarAutoTester.java
-
-# Run
-java Assignment2.CarAutoTester
-```
 
 ```bash
-# Compile
-javac Assignment3/ArrayExplorer.java
+# Navigate to the repo root first
+cd CSCI-2001-Object-Oriented-Programming
 
-# Run
-java Assignment3.ArrayExplorer
+# Assignment 2
+javac Assignment2-Car/Car.java Assignment2-Car/CarAutoTester.java
+java Assignment2-Car.CarAutoTester
+
+# Assignment 3
+javac Assignment3-ArrayExplorer/ArrayExplorer.java
+java Assignment3-ArrayExplorer.ArrayExplorer
+
+# Assignment 4
+javac Assignment4-ArrayListExplorer/ArrayListExplorerWithOutCollections.java
+java Assignment4-ArrayListExplorer.ArrayListExplorerWithOutCollections
 ```
 
 ---
 
 ## 🧠 Topics Covered
 
-| Topic | Assignment |
+| Assignment | Topic |
 |---|---|
-| Data types, arithmetic, I/O | A1 |
-| Classes, encapsulation, constructors | A2 |
-| Static methods, arrays, exceptions | A3 |
-| ArrayLists, generics | A4 |
+| A1 – Unit Conversion | Data types, arithmetic, I/O |
+| A2 – Car Class | Classes, encapsulation, constructors, method design |
+| A3 – Array Explorer | Static methods, arrays, exception handling |
+| A4 – ArrayList Explorer | ArrayLists, generics, iteration |
 
 ---
 
@@ -106,8 +108,8 @@ java Assignment3.ArrayExplorer
 
 **Chidera Izuora**  
 Computer Science Student  
-Course: CS2001 – Object-Oriented Programming  
+Course: CS2001 – Object-Oriented Programming
 
-- GitHub: [github.com/cizuora](https://github.com/cizuora)  
-- Email: cizuora@gmail.com  
+- GitHub: [github.com/cizuora](https://github.com/cizuora)
+- Email: cizuora@gmail.com
 - LinkedIn: [linkedin.com/in/chidera-izuora-233804146](https://www.linkedin.com/in/chidera-izuora-233804146/)
