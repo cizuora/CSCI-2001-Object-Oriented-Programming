@@ -2,7 +2,7 @@ package Assignment2;
 
 /*================================
 Author     : Chidera Izuora
-Class Name : Book
+Class Name : CarAutoTester
 Date       : 03-15-2025
 Course     : CS2001
 Purpose    : Assignment 2

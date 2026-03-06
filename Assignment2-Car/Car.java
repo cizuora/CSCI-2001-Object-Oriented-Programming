@@ -2,7 +2,7 @@ package Assignment2;
 
 /*================================
 Author     : Chidera Izuora
-Class Name : Book
+Class Name : Car
 Date       : 03-15-2025
 Course     : CS2001
 Purpose    : Assignment 2
@@ -99,7 +99,8 @@ public class Car {
             return;
         }
         else if (gasLevel + x > fuelTankCapacity) {
-             // Prevents overflow
+                gasLevel = fuelTankCapacity; //fill to max
+
         } else {
             gasLevel += x;
         }

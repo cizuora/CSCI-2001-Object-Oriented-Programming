@@ -6,7 +6,7 @@ import java.io.IOException;
 
 /*================================
 Author     : Chidera Izuora
-Class Name : Book
+Class Name : A1_Conversion
 Date       : 03-15-2025
 Course     : CS2001
 Purpose    : Assignment 1

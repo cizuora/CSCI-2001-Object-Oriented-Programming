@@ -1,6 +1,15 @@
 package Assignment4;
 
 import java.util.ArrayList;
+
+
+/*================================
+Author     : Chidera Izuora
+Class Name : ArrayListExplorerWithOutCollections
+Date       : 03-15-2025
+Course     : CS2001
+Purpose    : Assignment 3
+=================================*/
 //Note 1: You should NOT be importing any other classes other than java.util.ArrayList
 //Note 1: The main() method contains the code for testing your implementation.
 //      The main() method should not be changed under any circumstances.
