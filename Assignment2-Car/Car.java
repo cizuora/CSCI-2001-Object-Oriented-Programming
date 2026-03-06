@@ -91,14 +91,13 @@ public class Car {
     }
 
     // Method to fill gas up to the fuel tank capacity
-    public void fillGas(double x) {
+     public void fillGas(double x) {
         if (x <= 0) {
             System.out.println("Invalid gas amount.");
             return;
         }
         else if (gasLevel + x > fuelTankCapacity) {
-                gasLevel = fuelTankCapacity; //fill to max
-
+             // Prevents overflow
         } else {
             gasLevel += x;
         }

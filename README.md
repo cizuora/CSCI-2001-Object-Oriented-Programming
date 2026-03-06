@@ -32,8 +32,16 @@ CSCI-2001-Object-Oriented-Programming/
 ## 📚 Assignments
 
 ### Assignment 1 – Unit Conversion
-Converts between different units of measurement.  
-**Concepts:** Input/output, arithmetic operations, data types.
+An interactive command-line program that converts meters into kilometers, inches, or feet.  
+**Concepts:** Input/output, Scanner, switch statements, file writing, input validation.
+
+How to run:
+```bash
+cd Assignment1-UnitConversion
+javac A1_Conversion.java
+java A1_Conversion
+```
+The program presents a menu — enter 1, 2, 3 to convert, or 4 to quit.
 
 ---
 
@@ -48,6 +56,13 @@ Key features:
 - `canDrive(double distance)` — checks if enough fuel exists for a trip
 - `CarAutoTester.java` — automated test suite with scoring
 
+How to run:
+```bash
+cd Assignment2-Car
+javac Car.java CarAutoTester.java
+java CarAutoTester
+```
+
 ---
 
 ### Assignment 3 – Array Explorer
@@ -55,6 +70,13 @@ A utility class with static methods for analyzing integer arrays **without** usi
 **Concepts:** Static methods, arrays, iteration, exception handling.
 
 Methods: `min`, `max`, `sum`, `average`, `count`, `contains`, `index`, `containsDuplicates`, `sumOfEvens`, `getItem`, `toString`
+
+How to run:
+```bash
+cd Assignment3-ArrayExplorer
+javac ArrayExplorer.java
+java ArrayExplorer
+```
 
 ---
 
@@ -64,31 +86,11 @@ Same utility methods as Assignment 3, but operating on `ArrayList<Integer>` inst
 
 Methods: `min`, `max`, `sum`, `average`, `count`, `contains`, `index`, `containsDuplicates`, `sumOfEvens`, `getItem`, `toString`
 
----
-
-## 🛠 How to Run
-
-### Prerequisites
-- Java JDK 8 or higher
-- Any Java IDE (Eclipse, IntelliJ, VS Code) or command line
-
-### Running from the command line
-
+How to run:
 ```bash
-# Navigate to the repo root first
-cd CSCI-2001-Object-Oriented-Programming
-
-# Assignment 2
-javac Assignment2-Car/Car.java Assignment2-Car/CarAutoTester.java
-java Assignment2-Car.CarAutoTester
-
-# Assignment 3
-javac Assignment3-ArrayExplorer/ArrayExplorer.java
-java Assignment3-ArrayExplorer.ArrayExplorer
-
-# Assignment 4
-javac Assignment4-ArrayListExplorer/ArrayListExplorerWithOutCollections.java
-java Assignment4-ArrayListExplorer.ArrayListExplorerWithOutCollections
+cd Assignment4-ArrayListExplorer
+javac ArrayListExplorerWithOutCollections.java
+java ArrayListExplorerWithOutCollections
 ```
 
 ---
@@ -97,10 +99,22 @@ java Assignment4-ArrayListExplorer.ArrayListExplorerWithOutCollections
 
 | Assignment | Topic |
 |---|---|
-| A1 – Unit Conversion | Data types, arithmetic, I/O |
+| A1 – Unit Conversion | Scanner, switch statements, file I/O, input validation |
 | A2 – Car Class | Classes, encapsulation, constructors, method design |
 | A3 – Array Explorer | Static methods, arrays, exception handling |
 | A4 – ArrayList Explorer | ArrayLists, generics, iteration |
+
+---
+
+## ⚙️ Prerequisites
+
+- Java JDK 8 or higher
+- Any Java IDE (Eclipse, IntelliJ, VS Code) or command line
+
+Check your Java version:
+```bash
+java -version
+```
 
 ---
 

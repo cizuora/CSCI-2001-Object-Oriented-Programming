@@ -1,5 +1,3 @@
-package Assignment2;
-
 /*================================
 Author     : Chidera Izuora
 Class Name : CarAutoTester
